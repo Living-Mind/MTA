@@ -31,5 +31,6 @@ def someFunction():
             #c = str(list_itme).replace("('","").replace("","").replace(")","")
             c = re.sub("['()\"]", "", str(list_itme)).replace(",", " :")
             print(c)
+    word_list.close()
 
 someFunction()
