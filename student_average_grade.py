@@ -13,7 +13,8 @@ data = {
 def average_calc():
     #print(data)
     calc = sum(list(data.values()))/len(list(data.values()))
-    print(calc)
+    return calc
+    #print(calc)
     
 
-average_calc()
+print(average_calc())

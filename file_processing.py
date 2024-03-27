@@ -29,8 +29,8 @@ def someFunction():
 
         for list_itme in reversed(sorted_dict):
             #c = str(list_itme).replace("('","").replace("","").replace(")","")
-            c = re.sub("['()\"]", "", str(list_itme)).replace(",", " :")
-            print(c)
+            completed_sort = re.sub("['()\"]", "", str(list_itme)).replace(",", " :")
+            print(completed_sort)
     word_list.close()
 
 someFunction()
